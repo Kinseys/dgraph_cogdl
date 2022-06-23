@@ -10,8 +10,8 @@ This repo provides a collection of cogdl baselines for DGraphFin dataset. Please
 ## Environments
 Implementing environment:  
 - numpy = 1.21.2  
-- pytorch = 1.6.0  
-
+- pytorch >= 1.6.0  
+- pillow = 9.1.1
 
 ## Training
 
@@ -54,6 +54,8 @@ python gnn.py --model mixhop --epochs 200 --runs 10 --device 0
 ```bash
 python gnn.py --model gcn --epochs 200 --runs 10 --device 0 --hidden_size 128 --lr 0.01 --dropout 0.5 --early_stop False
 ```
+
+- **You can find more usage and models on cogdl https://cogdl.readthedocs.io/en/latest/index.html**
 
 
 ## Results:
