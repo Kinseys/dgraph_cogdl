@@ -55,7 +55,7 @@ python gnn.py --model mixhop --epochs 200 --runs 10 --device 0
 python gnn.py --model gcn --epochs 200 --runs 10 --device 0 --hidden_size 128 --lr 0.01 --dropout 0.5 --early_stop False
 ```
 
-- **You can find more usage and models on cogdl https://cogdl.readthedocs.io/en/latest/index.html**
+- **You can find more models usage of function experiment() on cogdl https://cogdl.readthedocs.io/en/latest/index.html**
 
 
 ## Results:
