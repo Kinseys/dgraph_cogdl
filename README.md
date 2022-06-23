@@ -1,7 +1,7 @@
 # dgraph_cogdl
 cogdl version of Dgraph
 
-This repo provides a collection of cogdl baselines for DGraphFin dataset. Please download the dataset from the DGraph web and place it under the folder 'dataset/'
+This repo provides a collection of cogdl baselines for DGraphFin dataset. Please download the dataset from the DGraph web and place & unzip it under the folder 'dataset/'
 
 **Dgraph dataset:** https://dgraph.oss-cn-shanghai.aliyuncs.com/DGraphFin.zip
 
