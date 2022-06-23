@@ -2,7 +2,10 @@
 cogdl version of Dgraph
 
 This repo provides a collection of cogdl baselines for DGraphFin dataset. Please download the dataset from the DGraph web and place it under the folder 'dataset/'
-Dgraph dataset:
+
+**Dgraph dataset:** https://dgraph.oss-cn-shanghai.aliyuncs.com/DGraphFin.zip
+
+**Cogdl introduction:** https://cogdl.readthedocs.io/en/latest/index.html
 
 ## Environments
 Implementing environment:  
