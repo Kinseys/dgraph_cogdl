@@ -30,7 +30,7 @@ if __name__ == "__main__":
 
     # Load data
     print('read_dgraphfin')
-    folder = 'data/dgraphfin.npz'
+    folder = 'dataset/dgraphfin.npz'
 
     items = [np.load(folder)]
 
