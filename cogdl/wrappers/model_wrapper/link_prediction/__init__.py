@@ -1,3 +1,0 @@
-from .embedding_link_prediction_mw import EmbeddingLinkPredictionModelWrapper
-from .gnn_kg_link_prediction_mw import GNNKGLinkPredictionModelWrapper
-from .gnn_link_prediction_mw import GNNLinkPredictionModelWrapper
