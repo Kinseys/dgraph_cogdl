@@ -160,7 +160,7 @@ def main():
 
     device = f'cuda:{args.device}' if torch.cuda.is_available() else 'cpu'
     device = torch.device(device)
-    datapath = 'dataset/DGraphFin/raw/dgraphfin.npz'
+    datapath = 'dataset/dgraphfin.npz'
 
     x,edge_index,y,train_mask,valid_mask,test_mask = Dgraph_Dataloader(datapath)
     #x,edge_index,y,train_mask,valid_mask,test_mask = res[0],res[1],res[2],res[3],res[4],res[5]
