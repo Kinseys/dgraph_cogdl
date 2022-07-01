@@ -47,7 +47,12 @@ python gnn.py --model grand --dataset DGraphFin --epochs 200 --runs 10 --device 
 
 - **SGC**
 ```bash
-python gnn.py --model sgc --epochs 200 --runs 10 --device 0
+python gnn.py --model sgc --dataset DGraphFin --epochs 200 --runs 10 --device 0
+```
+
+- **SIGN**
+```bash
+python gnn.py --model sign --dataset DGraphFin --epochs 200 --runs 10 --device 0
 ```
 
 - **Mixhop**
@@ -65,10 +70,12 @@ Performance on **DGraphFin**(10 runs):
 |  :----  |  ---- |  ---- | ---- |
 | MLP | 0.7102 ± 0.0033 | 0.6987 ± 0.0029 | 0.7059 ± 0.0030 |
 | GCN | 0.7187 ± 0.0039 | 0.7093 ± 0.0048 | 0.7115 ± 0.0025 |
-| GraphSAGE| 0.7687 ± 0.0022 | 0.7521 ± 0.0021 | **0.7601 ± 0.0013** |
+| GraphSAGE| 0.7687 ± 0.0022 | 0.7521 ± 0.0021 | 0.7601 ± 0.0013 |
 | GIN | 0.7774 ± 0.0075 | 0.7594 ± 0.0069 | 0.7676 ± 0.0062 |
 | Grand  | 0.6817 ± 0.0021 | 0.6815 ± 0.0025 | 0.6805 ± 0.0020 |
 | GAT  | 0.6987 ± 0.0029 | 0.7233 ± 0.0012 | 0.7333 ± 0.0024 |
 | Mixhop | 0.6987 ± 0.0029 | 0.6895 ± 0.0055 | 0.6912 ± 0.0069 |
 | SGC | 0.6187 ± 0.0046 | 0.6136 ± 0.0043 | 0.6137 ± 0.0065 |
+| SIGN | 0.7718 ± 0.0025 | 0.7724 ± 0.0027 | **0.7716 ± 0.0031** |
+
 
