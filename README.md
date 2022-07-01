@@ -55,12 +55,8 @@ python gnn.py --model sgc --dataset DGraphFin --epochs 200 --runs 10 --device 0
 python gnn.py --model sign --dataset DGraphFin --epochs 200 --runs 10 --device 0
 ```
 
-- **Mixhop**
-```bash
-python gnn.py --model mixhop --epochs 200 --runs 10 --device 0
-```
 
-- **You can find more models usage of function experiment() on cogdl https://cogdl.readthedocs.io/en/latest/index.html**
+- **You can find more models on cogdl https://cogdl.readthedocs.io/en/latest/index.html**
 
 
 ## Results:
