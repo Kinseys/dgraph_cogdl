@@ -1,7 +1,9 @@
 # dgraph_cogdl
 cogdl version of Dgraph
 
-This repo provides a collection of cogdl baselines for DGraphFin dataset. Please download the dataset from the DGraph web and place & unzip it under the folder 'dataset/'
+This repo provides a collection of cogdl baselines for DGraphFin dataset. Please download the dataset from the DGraph web and place & unzip it under the folder 'dataset/' like:'dataset/dgraphfin.npz'
+
+Dgrapgfin introduction:https://dgraph.xinye.com/introduction
 
 **Dgraph dataset:** https://dgraph.oss-cn-shanghai.aliyuncs.com/DGraphFin.zip
 
@@ -12,6 +14,7 @@ Implementing environment:
 - numpy = 1.21.2  
 - pytorch >= 1.6.0  
 - pillow = 9.1.1
+- cogdl = 0.5.3
 
 ## Training
 
