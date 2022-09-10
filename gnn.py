@@ -91,7 +91,7 @@ sign_parameters = {'lr': 0.01
     , 'num_layers': 2
     , 'hidden_size': 128
     , 'dropout': 0.0
-    , 'dropedge_rate': 0.2
+    , 'dropedge_rate': 0.0
     , 'nhop': 3
     , 'l2': 5e-7
                   }
